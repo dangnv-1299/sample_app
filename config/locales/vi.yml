@@ -1,0 +1,24 @@
+vi:
+  layouts:
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      eng: "Anh"
+      vie: "Việt"
+    application:
+      ruby_on_rails: "Ứng dụng cơ bản Ruby on Rails"
+  static_pages:
+    home:
+      home: "Trang chủ"
+      title: "Sample App"
+      provide_title: "Trang chủ"
+      welcome: "Đây là trang chủ cho"
+      title_link1: "Khóa học Ruby on Rails"
+    help:
+      help: "Trợ giúp"
+      provide_title: "Trợ giúp"
+      first_help: "Nhận sự trợ giúp khi học"
+      sc_help: "Để hiểu nhiều hơn ứng dụng ví dụ này, hãy xem"
+      title_hlink1: "Ruby on Rails"
+      title_hlink2: "sách Ruby on Rails"

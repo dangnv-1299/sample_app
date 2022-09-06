@@ -1,0 +1,5 @@
+help:
+  help_tutorial: "http://www.railstutorial.org/help"
+  help_book: "http://www.railstutorial.org/book"
+home:
+  home_tutorial: "http://www.railstutorial.org/"

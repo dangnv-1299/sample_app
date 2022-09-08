@@ -3,3 +3,8 @@ help:
   help_book: "http://www.railstutorial.org/book"
 home:
   home_tutorial: "http://www.railstutorial.org/"
+user:
+  email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
+  max_name: 50
+  max_email: 255
+  min_password: 6

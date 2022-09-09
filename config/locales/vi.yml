@@ -6,6 +6,10 @@ vi:
       login: "Đăng nhập"
       eng: "Anh"
       vie: "Việt"
+      user: "Người dùng"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Thoát"
     footer:
       title_link1: "Khóa học Ruby on Rails bởi"
       title_link2: "Michael Hartl"
@@ -44,3 +48,12 @@ vi:
     error_messages:
       massage1: "Bản đăng kí này chứa"
       massage2: "lỗi"
+  sessions:
+    create:
+      flash_danger: "Sai thông tin đăng nhập"
+    new:
+      new_title: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      new_user: "Bạn chưa có tài khoản?"
+      signup: "Đăng kí ngay!"

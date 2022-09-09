@@ -6,6 +6,12 @@ vi:
       login: "Đăng nhập"
       eng: "Anh"
       vie: "Việt"
+    footer:
+      title_link1: "Khóa học Ruby on Rails bởi"
+      title_link2: "Michael Hartl"
+      title_link3: "Tin mới"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
     application:
       ruby_on_rails: "Ứng dụng cơ bản Ruby on Rails"
   static_pages:
@@ -22,3 +28,19 @@ vi:
       sc_help: "Để hiểu nhiều hơn ứng dụng ví dụ này, hãy xem"
       title_hlink1: "Ruby on Rails"
       title_hlink2: "sách Ruby on Rails"
+  users:
+    create:
+      flash_success: "Chào mừng đến với Sample App!"
+    show:
+      flash_warning: "Không tìm thấy người dùng!"
+    new:
+      new_title: "Đăng kí"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      create_account: "Tạo tài khoản"
+  shared:
+    error_messages:
+      massage1: "Bản đăng kí này chứa"
+      massage2: "lỗi"

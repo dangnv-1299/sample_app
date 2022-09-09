@@ -6,8 +6,14 @@ en:
       login: "Login"
       eng: "En"
       vie: "Vie"
+    footer:
+      title_link1: "Ruby on Rails Tutorial by"
+      title_link2: "Michael Hartl"
+      title_link3: "News"
+      about: "About"
+      contact: "Contact"
     application:
-      ruby_on_rails: 'Ruby on Rails Tutorial Sample App'
+      ruby_on_rails: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
       home: "Home"
@@ -22,3 +28,19 @@ en:
       sc_help: "To get help on this sample app, see the"
       title_hlink1: "Rails Tutorial help page"
       title_hlink2: "Ruby on Rails Tutorial book"
+  users:
+    create:
+       flash_success: "Welcome to the Sample App!"
+    show:
+       flash_warning: "Not found user!"
+    new:
+      new_title: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirm Password"
+      create_account: "Create my account"
+  shared:
+    error_messages:
+      massage1: "The form contains"
+      massage2: "errors"

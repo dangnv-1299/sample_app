@@ -6,6 +6,11 @@ en:
       login: "Login"
       eng: "En"
       vie: "Vie"
+      user: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      account: "Account"
     footer:
       title_link1: "Ruby on Rails Tutorial by"
       title_link2: "Michael Hartl"
@@ -44,3 +49,12 @@ en:
     error_messages:
       massage1: "The form contains"
       massage2: "errors"
+  sessions:
+    create:
+      flash_danger: "Invalid email/password combination"
+    new:
+      new_title: "Log in"
+      email: "Email"
+      password: "Password"
+      new_user: "New user?"
+      signup: "Sign up now!"

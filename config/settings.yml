@@ -8,9 +8,14 @@ user:
   max_name: 50
   max_email: 255
   min_password: 6
+  gravatar_size: 50
 footer:
   footer_link: "https://www.railstutorial.org/"
   footer_link2: "https://www.michaelhartl.com/"
   footer_link3: "https://news.railstutorial.org/"
 users_helper:
   gravatar_size: 80
+edit:
+  link: "https://gravatar.com/emails"
+index:
+  items: 10

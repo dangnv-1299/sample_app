@@ -34,17 +34,44 @@ en:
       title_hlink1: "Rails Tutorial help page"
       title_hlink2: "Ruby on Rails Tutorial book"
   users:
+    user:
+      delete: "|Delete"
+      confirm: "You sure?"
     create:
-       flash_success: "Welcome to the Sample App!"
+      flash_success: "Welcome to the Sample App!"
+      alert_not_save: "Not saved!"
     show:
-       flash_warning: "Not found user!"
-    new:
+      flash_warning: "Not found user!"
+    update:
+      flash_success: "Profile updated"
+      update_fail: "Update failed"
+    destroy:
+      delete_success: "User deleted"
+      delete_fail: "User deleted failed"
+    edit:
+      flash_login: "Please login"
+      correct_user: "Not correct user"
+      admin_user: "You are not admin"
+      find_user: "Can't find user"
+    form:
       new_title: "Sign up"
       name: "Name"
       email: "Email"
       password: "Password"
       password_confirmation: "Confirm Password"
+    new:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirm Password"
       create_account: "Create my account"
+    edit:
+      provide_title: "Edit user"
+      provide_button_text: "Save changes"
+      title: "Update your profile"
+      text: "change"
+    index:
+      provide_title: "All users"
   shared:
     error_messages:
       massage1: "The form contains"

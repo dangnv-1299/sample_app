@@ -33,17 +33,44 @@ vi:
       title_hlink1: "Ruby on Rails"
       title_hlink2: "sách Ruby on Rails"
   users:
+    user:
+      delete: "|Xóa"
+      confirm: "Bạn có chắc chắn muốn xóa?"
     create:
       flash_success: "Chào mừng đến với Sample App!"
     show:
       flash_warning: "Không tìm thấy người dùng!"
-    new:
+      alert_not_save: "Không thể lưu tài khoản"
+    update:
+      flash_success: "Cập nhật thông tin thành công"
+      update_fail: "Cập nhật thất bại"
+    destroy:
+      delete_success: "Đã xóa người dùng"
+      delete_fail: "Xóa thất bại"
+    edit:
+      flash_login: "Hãy đăng nhập"
+      correct_user: "Người dùng không chính xác"
+      admin_user: "Bạn không phải là quản trị viên"
+      find_user: "Không tìm thấy người dùng"
+    form:
       new_title: "Đăng kí"
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
+    new:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
       create_account: "Tạo tài khoản"
+    edit:
+      provide_title: "Chỉnh sửa tài khoản"
+      provide_button_text: "Lưu thay đổi"
+      title: "Cập nhật thông tin"
+      text: "thay đổi"
+    index:
+      provide_title: "Toàn bộ người dùng"
   shared:
     error_messages:
       massage1: "Bản đăng kí này chứa"

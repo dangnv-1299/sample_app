@@ -38,7 +38,7 @@ en:
       delete: "|Delete"
       confirm: "You sure?"
     create:
-      flash_success: "Welcome to the Sample App!"
+      flash_info: "Please check your email to activate your account."
       alert_not_save: "Not saved!"
     show:
       flash_warning: "Not found user!"
@@ -54,12 +54,12 @@ en:
       admin_user: "You are not admin"
       find_user: "Can't find user"
     form:
-      new_title: "Sign up"
       name: "Name"
       email: "Email"
       password: "Password"
       password_confirmation: "Confirm Password"
     new:
+      new_title: "Sign up"
       name: "Name"
       email: "Email"
       password: "Password"
@@ -79,6 +79,8 @@ en:
   sessions:
     create:
       flash_danger: "Invalid email/password combination"
+      activate_fail: "Account not activated. Check your email for the activation link."
+      find_error: "Can't find the user with that email"
     new:
       new_title: "Log in"
       email: "Email"
@@ -86,3 +88,14 @@ en:
       new_user: "New user?"
       signup: "Sign up now!"
       remember: "Remember me on this computer"
+  account_activations:
+    edit:
+      activate_success: "Account Activated"
+      activate_fail: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      subject: "Account Activation"
+      title: "Sample App"
+      hi: "Hi"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"

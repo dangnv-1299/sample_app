@@ -85,6 +85,7 @@ en:
       new_title: "Log in"
       email: "Email"
       password: "Password"
+      forgot_password: "(Forgot password)"
       new_user: "New user?"
       signup: "Sign up now!"
       remember: "Remember me on this computer"
@@ -99,3 +100,27 @@ en:
       hi: "Hi"
       content: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+    password_reset:
+      subject: "Password reset"
+      reset_password: "Reset password"
+      guide_text: "To reset your password click the link below:"
+      guide_expires_at: "This link will expire in two hours."
+      guide: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  password_resets:
+    create:
+      email_message: "Email sent with password reset instructions"
+    update:
+      password_error: "can't be empty"
+      password_changed: "Password has been reset."
+      change_failed: "Password cannot be changed right now."
+    edit:
+      title: "Reset Password"
+      password: "Password"
+      password_confirmation: "Password Confirmation"
+      update_password_button: "Update Password"
+      flash_email: "Can't find user with that email"
+      flash_expiration: "Password reset has expired."
+    new:
+      title: "Forgot Password"
+      email: "Email"
+      submit_button: "Submit"

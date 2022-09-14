@@ -9,6 +9,7 @@ user:
   max_email: 255
   min_password: 6
   gravatar_size: 50
+  deadline_expiration: 2
 footer:
   footer_link: "https://www.railstutorial.org/"
   footer_link2: "https://www.michaelhartl.com/"

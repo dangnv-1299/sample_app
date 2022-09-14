@@ -84,6 +84,7 @@ vi:
       new_title: "Đăng nhập"
       email: "Email"
       password: "Mật khẩu"
+      forgot_password: "(Quên mật khẩu)"
       new_user: "Bạn chưa có tài khoản?"
       signup: "Đăng kí ngay!"
       remember: "Lưu thông tin đăng nhập"
@@ -98,3 +99,27 @@ vi:
       hi: "Xin chào"
       content: "Chào mừng đến với Sample App! Hãy truy cập đường link dưới đây để kích hoạt tài khoản của bạn:"
       activate: "Kích hoạt"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      reset_password: "Đặt lại mật khẩu"
+      guide_text: "Để đặt lại, hãy nhấp vào đường dẫn phía dưới:"
+      guide_expires_at: "Email này có hạn trong vòng 2 giờ."
+      guide: "Nếu bạn không gửi email này, vui lòng bỏ qua email và tiếp tục sử dụng."
+  password_resets:
+    create:
+      email_message: "Email được gửi với mã đổi mật khẩu"
+    update:
+      password_error: "không thể để trống"
+      password_changed: "Đặt lại mật khẩu thành công"
+      change_failed: "Không thể đặt lại lúc này"
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      update_password_button: "Cập nhật mật khẩu"
+      flash_email: "Không tìm thấy người dùng có email như vậy"
+      flash_expiration: "Đường dẫn đặt lại mật khẩu đã hết hạn"
+    new:
+      title: "Quên mật khẩu"
+      email: "Email"
+      submit_button: "Xác nhận"

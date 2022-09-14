@@ -37,10 +37,10 @@ vi:
       delete: "|Xóa"
       confirm: "Bạn có chắc chắn muốn xóa?"
     create:
-      flash_success: "Chào mừng đến với Sample App!"
+      flash_info: "Vui lòng kiểm tra email để kích hoạt tài khoản."
+      alert_not_save: "Không thể lưu tài khoản"
     show:
       flash_warning: "Không tìm thấy người dùng!"
-      alert_not_save: "Không thể lưu tài khoản"
     update:
       flash_success: "Cập nhật thông tin thành công"
       update_fail: "Cập nhật thất bại"
@@ -53,12 +53,12 @@ vi:
       admin_user: "Bạn không phải là quản trị viên"
       find_user: "Không tìm thấy người dùng"
     form:
-      new_title: "Đăng kí"
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
     new:
+      new_title: "Đăng kí"
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
@@ -78,6 +78,8 @@ vi:
   sessions:
     create:
       flash_danger: "Sai thông tin đăng nhập"
+      activate_fail: "Tài khoản chưa được kích hoạt. Kiểm tra email để kích hoạt."
+      find_error: "Không tìm thấy người dùng có email đó"
     new:
       new_title: "Đăng nhập"
       email: "Email"
@@ -85,3 +87,14 @@ vi:
       new_user: "Bạn chưa có tài khoản?"
       signup: "Đăng kí ngay!"
       remember: "Lưu thông tin đăng nhập"
+  account_activations:
+    edit:
+      activate_success: "Tài khoản kích hoạt thành công"
+      activate_fail: "Không tồn tại đường dẫn kích hoạt"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      title: "Sample App"
+      hi: "Xin chào"
+      content: "Chào mừng đến với Sample App! Hãy truy cập đường link dưới đây để kích hoạt tài khoản của bạn:"
+      activate: "Kích hoạt"

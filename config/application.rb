@@ -15,10 +15,12 @@ module Sun
     config.i18n.available_locales = [:en, :vi]
     # Set default language is Vietnamese
     config.i18n.default_locale = :vi
-    # These settings can be overridden in specific environments using the files
-    # in config/environments, which are processed later.
-    #
-    # config.time_zone = "Central Time (US & Canada)"
-    # config.eager_load_paths << Rails.root.join("extras")
+    config.assets.version = "1.0"
+    config.before_configuration do
+      env_file = File.join(Rails.root, 'config', 'local_env.yml')
+      YAML.load(File.open(env_file)).each do |key, value|
+        ENV[key.to_s] = value
+      end if File.exists?(env_file)
+    end
   end
 end

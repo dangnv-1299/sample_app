@@ -20,5 +20,9 @@
       <%= render "layouts/footer" %>
       <%= debug(params) if Rails.env.development? %>
     </div>
+    <script>
+      var language = "<%= I18n.locale %>";
+      I18n.translations = <%== I18n::JS.filtered_translations[I18n.locale].to_json %>;
+    </script>
   </body>
 </html>

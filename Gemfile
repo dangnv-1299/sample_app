@@ -2,11 +2,16 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.1"
+gem "active_storage_validations", "0.8.2"
 gem "bcrypt", "3.1.13"
 gem "bootsnap", ">= 1.4.4"
 gem "bootstrap-sass", "3.4.1"
 gem "config"
+gem "figaro"
+gem "i18n-js", "3.9.2"
+gem "image_processing", "1.9.3"
 gem "jbuilder", "~> 2.7"
+gem "mini_magick", "4.9.5"
 gem "mysql2", "~> 0.5"
 gem "pagy"
 gem "puma", "~> 5.0"
@@ -15,7 +20,6 @@ gem "rails-i18n"
 gem "sass-rails", ">= 6"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 5.0"
-gem "figaro"
 
 group :development, :test do
   gem "pry-rails", platforms: [:mri, :mingw, :x64_mingw]

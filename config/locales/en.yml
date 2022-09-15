@@ -1,4 +1,7 @@
 en:
+  size_warning: "should be less than 5MB"
+  wrong_format: "must be vaid image format"
+  maxsize: "Maximum file size is 5MB. Please choose a smaller file."
   layouts:
     header:
       home: "Home"
@@ -26,6 +29,7 @@ en:
       provide_title: "Home"
       welcome: "This is the home page for the"
       title_link1: "Ruby on Rails Tutorial"
+      micropost_feed: "Microropost Feed"
     help:
       help: "Help"
       provide_title: "Help"
@@ -42,6 +46,7 @@ en:
       alert_not_save: "Not saved!"
     show:
       flash_warning: "Not found user!"
+      micropost: "Microroposts"
     update:
       flash_success: "Profile updated"
       update_fail: "Update failed"
@@ -72,10 +77,6 @@ en:
       text: "change"
     index:
       provide_title: "All users"
-  shared:
-    error_messages:
-      massage1: "The form contains"
-      massage2: "errors"
   sessions:
     create:
       flash_danger: "Invalid email/password combination"
@@ -124,3 +125,25 @@ en:
       title: "Forgot Password"
       email: "Email"
       submit_button: "Submit"
+  microposts:
+    micropost:
+      post: "Posted"
+      ago: "ago."
+      delete: "delete"
+      confirm: "You sure?"
+    create:
+      micropost_created: "Microropost Created!"
+      micropost_created_fail: "Microropost Created Failed!"
+    destroy:
+      micropost_deleted: "Microropost Deleted!"
+      fail_destroy: "Microropost Delete Failed"
+  shared:
+    error_messages:
+      massage1: "The form contains"
+      massage2: "errors"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      view: "view my profile"
+      micropost: "micropost"

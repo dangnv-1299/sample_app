@@ -11,10 +11,12 @@ class UsersController < ApplicationController
   end
 
   def index
-    @pagy, @users = pagy(User.order(name: :asc))
+    @pagy, @users = pagy User.activated.sort_by_name
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy @user.microposts
+  end
 
   def create
     @user = User.new user_params
@@ -53,14 +55,6 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit(User::UPDATABLE_ATTRS)
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t ".flash_login"
-    redirect_to login_url
   end
 
   def correct_user

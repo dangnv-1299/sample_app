@@ -20,3 +20,10 @@ edit:
   link: "https://gravatar.com/emails"
 index:
   items: 10
+micropost:
+  max_length_content: 140
+  image_path: <% %w(image/jpeg image/gif image/png) %>
+  accept_path: "image/jpeg,image/gif,image/png"
+  max_data: 5
+  max_size: [500, 500]
+  gravatar_size: 50

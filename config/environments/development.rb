@@ -1,6 +1,7 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
+  config.middleware.use I18n::JS::Middleware
   routes.default_url_options[:host] = "localhost:3000"
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {

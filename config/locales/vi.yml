@@ -1,4 +1,7 @@
 vi:
+  size_warning: "nên có kích cỡ nhỏ hơn 5MB"
+  wrong_format: "phải nhập tệp họp lệ"
+  maxsize: "Kích thước hình lớn nhất là 5MB. Hãy chọn kích thước nhỏ hơn."
   layouts:
     header:
       home: "Trang chủ"
@@ -10,6 +13,7 @@ vi:
       profile: "Hồ sơ"
       settings: "Cài đặt"
       logout: "Thoát"
+      account: "Tài khoản"
     footer:
       title_link1: "Khóa học Ruby on Rails bởi"
       title_link2: "Michael Hartl"
@@ -25,6 +29,7 @@ vi:
       provide_title: "Trang chủ"
       welcome: "Đây là trang chủ cho"
       title_link1: "Khóa học Ruby on Rails"
+      micropost_feed: "Tin đăng mới"
     help:
       help: "Trợ giúp"
       provide_title: "Trợ giúp"
@@ -41,6 +46,7 @@ vi:
       alert_not_save: "Không thể lưu tài khoản"
     show:
       flash_warning: "Không tìm thấy người dùng!"
+      micropost: "Bài đăng"
     update:
       flash_success: "Cập nhật thông tin thành công"
       update_fail: "Cập nhật thất bại"
@@ -71,10 +77,6 @@ vi:
       text: "thay đổi"
     index:
       provide_title: "Toàn bộ người dùng"
-  shared:
-    error_messages:
-      massage1: "Bản đăng kí này chứa"
-      massage2: "lỗi"
   sessions:
     create:
       flash_danger: "Sai thông tin đăng nhập"
@@ -123,3 +125,25 @@ vi:
       title: "Quên mật khẩu"
       email: "Email"
       submit_button: "Xác nhận"
+  microposts:
+    micropost:
+      post: "Đã đăng"
+      ago: "trước."
+      delete: "xóa"
+      confirm: "Bạn có chắc chắn xóa?"
+    create:
+      micropost_created: "Tạo bài đăng thành công!"
+      micropost_created_fail: "Tạo bài đăng thất bại!"
+    destroy:
+      micropost_deleted: "Xóa bài đăng thành công!"
+      fail_destroy: "Xóa bài không thành công"
+  shared:
+    error_messages:
+      massage1: "Bản đăng kí này chứa"
+      massage2: "lỗi"
+    micropost_form:
+      compose: "Soạn bài đăng mới tại đây..."
+      post: "Đăng"
+    user_info:
+      view: "xem tài khoản"
+      micropost: "bài đăng"

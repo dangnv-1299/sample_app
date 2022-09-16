@@ -38,6 +38,13 @@ vi:
       title_hlink1: "Ruby on Rails"
       title_hlink2: "sách Ruby on Rails"
   users:
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    follow:
+      follow: "Theo dõi"
+    show_follow:
+      micropost: "Bài đăng:"
+      view: "xem tài khoản"
     user:
       delete: "|Xóa"
       confirm: "Bạn có chắc chắn muốn xóa?"
@@ -77,6 +84,10 @@ vi:
       text: "thay đổi"
     index:
       provide_title: "Toàn bộ người dùng"
+    following:
+      title: "Đang theo dõi"
+    followers:
+      title: "Người theo dõi"
   sessions:
     create:
       flash_danger: "Sai thông tin đăng nhập"
@@ -147,3 +158,12 @@ vi:
     user_info:
       view: "xem tài khoản"
       micropost: "bài đăng"
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
+  following:
+    index:
+      following: 'Đang theo dõi'
+  followers:
+    index:
+      followers: "Người theo dõi"

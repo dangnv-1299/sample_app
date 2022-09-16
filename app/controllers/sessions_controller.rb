@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
         redirect_back_or @user
       else
         flash[:warning] = t ".activate_fail"
-        redirect_to root_url
+        redirect_to root_path
       end
     else
       flash.now[:danger] = t ".flash_danger"
@@ -21,7 +21,7 @@ class SessionsController < ApplicationController
 
   def destroy
     log_out if logged_in?
-    redirect_to root_url
+    redirect_to root_path
   end
 
   private

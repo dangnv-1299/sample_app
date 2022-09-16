@@ -38,6 +38,13 @@ en:
       title_hlink1: "Rails Tutorial help page"
       title_hlink2: "Ruby on Rails Tutorial book"
   users:
+    unfollow:
+      unfollow: "Unfollow"
+    follow:
+      follow: "Follow"
+    show_follow:
+      micropost: "Microposts:"
+      view: "view my profile"
     user:
       delete: "|Delete"
       confirm: "You sure?"
@@ -77,6 +84,10 @@ en:
       text: "change"
     index:
       provide_title: "All users"
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
   sessions:
     create:
       flash_danger: "Invalid email/password combination"
@@ -147,3 +158,12 @@ en:
     user_info:
       view: "view my profile"
       micropost: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
+  following:
+    index:
+      following: "Following"
+  followers:
+    index:
+      followers: "Followers"

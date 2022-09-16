@@ -13,7 +13,7 @@ class Micropost < ApplicationRecord
 
   delegate :name, to: :user, prefix: true
   scope :recent, ->{order created_at: :desc}
-  scope :search_by_id, ->(id){where "user_id = ?", id}
+  scope :search_by_id, ->(user_ids){where user_id: user_ids}
 
   def display_image
     image.variant(resize_to_limit: Settings.micropost.max_size)
